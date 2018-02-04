@@ -1,45 +1,82 @@
-#login-bg {
-    min-height: 500px;
-    background-color: #f5f5f5;
-}
 
-#login-bg-top {
-    background-image: url('https://4.bp.blogspot.com/-0zDyh8UyKdE/VyquYtEl2qI/AAAAAAAAAHI/eCnUQSR1nWkudXLyZTqNrx86Q643E-eZQCLcB/s1600/Healthy-Life.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 30%;
-    height: 250px;
-    display: block;
-    text-align: center;
+.quitar-float {
+	float: none;
 }
-
-#login-bg-top h3 {
-    color: #101010;
+.espacio-arriba {
+	margin-top: 120px;
 }
-
-.logo-circle {
-    background-image: url('http://icons.iconarchive.com/icons/icons-land/medical/256/People-Doctor-Female-icon.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 125px;
-    width: 150px;
-    height: 150px;
-    margin-top: 150px;
-    display: inline-block;
-    border: 5px solid rgba(211,211,211,0.9);
+.espacio-abajo {
+	padding: 10px;
 }
-
-.bg-content {
-    text-align: center;
-    padding-top: 50px;
-    padding-left: 110px;
-    padding-right: 110px;
-    margin-top: 40px;
-    margin-bottom: 90px;
-    background-color: #FFF;
-    min-height: 300px;
+.grande {
+	font-size: 3em;
 }
-
-.input-group {
-    width: 100%;
+.mediano {
+	font-size: 2em;
+}
+.grey {
+	color: #5F5448
+}
+.bck-grey {
+	background-color: #eee
+}
+a {
+	color: #009FFF
+}
+.azul {
+	color: #0092B2
+}
+.bck-blue {
+	background-color: #0092B2
+}
+.blanco {
+	color: #FCFCF9
+}
+.verde {
+	color: #B6E548
+}
+.bck-verde {
+	background-color: #B6E548
+}
+.naranja {
+	color: #FF530D
+}
+.bck-naranja {
+	background-color: #FF530D
+}
+.no-lista {
+	margin: 0px;
+	padding: 0px;
+}
+.no-lista li {
+	list-style-type: none;
+}
+.espacio-derecha {
+	margin-right: 1em;
+}
+.pading-largo {
+	padding: 20px 20px;
+}
+.inline-block {
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.vete-arriba {
+	vertical-align: top;
+}
+.retraso-1 {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+.retraso-2 {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.retraso-3 {
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }

@@ -15,11 +15,11 @@ if($_SESSION['user'] == "") { header("Location: index.php"); }
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-  <body background="../img/moon.jpg">
+  <body background="../img/moon.jpg"type="width:100%; height:100%;">
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
       <div class="navbar-header">
-      <a class="navbar-brand" href="index.html"><img src="../img/ico2.png" style="max-width:120px; margin: -7px;" name="Inicio"></a>
+      <a class="navbar-brand" href="../index.php"><img src="../img/ico2.png" style="max-width:120px; margin: -7px;" name="Inicio"></a>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="admin.php">Administración de Usuarios</a></li>
@@ -44,7 +44,7 @@ if($_SESSION['user'] != "") {
   
 <div class=" text-center">
         <h1></form> MEDIMAX</h1>
-        <img aling=center src="../img/portada.png"><style type="width:105px; height:150px;"></style>
+        <img aling=center src="../img/portada.png"><style type="width:100%; height:100%;"></style>
       <p>Su salud al dia.</p> 
     </div>
       <div class="row">
